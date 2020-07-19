@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GameWeb</string>
+    <string name="you_have_signed_in_into_gameweb">You have sucsessfully signed in into GameWeb! You will be part of many exciting games and activities. Good Luck!</string>
+    <string name="reset_text">RESET</string>
+</resources>

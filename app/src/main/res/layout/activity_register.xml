@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluebackground3"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Name"
+        android:background="@drawable/rounded_corners_yellow"
+        android:drawableLeft="@drawable/name_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:background="@drawable/rounded_corners_yellow"
+        android:drawableLeft="@drawable/username_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editTextTextPersonName"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonNameage"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Age"
+        android:background="@drawable/rounded_corners_yellow"
+        android:drawableLeft="@drawable/age_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editTextTextPersonName2"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email(optional)"
+        android:background="@drawable/rounded_corners_yellow"
+        android:drawableLeft="@drawable/email_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editTextTextPersonNameage"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:background="@drawable/rounded_corners_yellow"
+        android:drawableLeft="@drawable/password_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editTextTextPersonName3"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corners_yellow"
+        android:drawableLeft="@drawable/password_icon"
+        android:layout_below="@id/editTextTextPersonName4"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/rounded_corners_green"
+        android:fontFamily="monospace"
+        android:textSize="40sp"
+        android:text="Register" />
+
+    <ImageView
+        android:src="@drawable/back"
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        tools:srcCompat="@tools:sample/avatars" />
+</RelativeLayout>

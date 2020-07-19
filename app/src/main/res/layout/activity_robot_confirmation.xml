@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Robot_confirmation">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:src="@drawable/street1"
+        android:background="@drawable/border_white"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:src="@drawable/street2"
+        android:background="@drawable/border_white"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/imageView1"
+        android:layout_marginStart="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:src="@drawable/car3"
+        android:background="@drawable/border_white"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/imageView2"
+        android:layout_marginStart="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:src="@drawable/car4"
+        android:background="@drawable/border_white"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imageView1"
+        android:layout_marginStart="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:src="@drawable/car5"
+        android:background="@drawable/border_white"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imageView1"
+        android:layout_toRightOf="@id/imageView4"
+        android:layout_marginStart="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:src="@drawable/street6"
+        android:layout_width="120dp"
+        android:background="@drawable/border_white"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imageView1"
+        android:layout_toRightOf="@id/imageView5"
+        android:layout_marginStart="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:src="@drawable/street7"
+        android:layout_width="120dp"
+        android:background="@drawable/border_white"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imageView4"
+        android:layout_marginStart="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:src="@drawable/car8"
+        android:layout_width="120dp"
+        android:background="@drawable/border_white"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imageView4"
+        android:layout_toRightOf="@id/imageView7"
+        android:layout_marginStart="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:src="@drawable/street9"
+        android:background="@drawable/border_white"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imageView4"
+        android:layout_toRightOf="@id/imageView8"
+        android:layout_marginStart="10dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:fontFamily="monospace"
+        android:background="@drawable/rounded_corners_blue"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm you are not a robot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="monospace"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        android:text="Select all squares with cars."
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:paddingTop="17dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners_yellow"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:text="BACK" />
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#123456"
+    tools:context=".Tic_Tac_Toe_welcome">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Tic Tac Toe"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textAlignment="center"
+        android:textSize="55sp"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:src="@drawable/androidrobot"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="300dp"
+        android:rotation="30"
+        android:layout_marginStart="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="You can choose to play Multi-player or Singular."
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:text="Multi- Player"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="50sp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/rounded_corners_green20"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:text="Single- Player"
+        android:textSize="50sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="210dp"
+        android:background="@drawable/rounded_corners_pink"
+        />
+
+    <ImageView
+        android:src="@drawable/back"
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        tools:srcCompat="@tools:sample/avatars" />
+</RelativeLayout>

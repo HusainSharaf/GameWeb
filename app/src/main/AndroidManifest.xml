@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gameweb">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Minesweeper_hard"></activity>
+        <activity android:name=".Minesweeper_normal" />
+        <activity android:name=".Minesweeper_welcome" />
+        <activity android:name=".Minesweeper_easy" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Memory_end" />
+        <activity android:name=".About_GameWeb" />
+        <activity android:name=".Guess_the_word_easy" />
+        <activity android:name=".Memory_easy" />
+        <activity android:name=".Memory_hard" />
+        <activity android:name=".Memory_welcome" />
+        <activity android:name=".Extra_page2" />
+        <activity android:name=".Guess_the_word_hard" />
+        <activity android:name=".Guess_the_word_end" />
+        <activity android:name=".Guess_the_word_welcome" />
+        <activity android:name=".Tic_Tac_Toe_AI" />
+        <activity android:name=".Tic_Tac_Toe_names" />
+        <activity android:name=".Tic_Tac_Toe" />
+        <activity android:name=".Tic_Tac_Toe_welcome" />
+        <activity android:name=".Congratulation" />
+        <activity android:name=".Games_list" />
+        <activity android:name=".Robot_confirmation" />
+        <activity android:name=".Register" />
+        <activity android:name=".Sign_in" />
+        <activity android:name=".Sign_Register" />
+        <activity android:name=".MainActivity_loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

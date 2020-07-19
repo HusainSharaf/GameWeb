@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/savannah"
+    tools:context=".Memory_hard">
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:id="@+id/imageView1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="140dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_toRightOf="@id/imageView1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="140dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:scaleType="fitXY"
+        android:layout_height="120dp"
+        android:layout_toRightOf="@id/imageView2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="140dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:id="@+id/imageView4"
+        android:scaleType="fitXY"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/imageView1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:id="@+id/imageView5"
+        android:scaleType="fitXY"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_toRightOf="@id/imageView4"
+        android:layout_below="@id/imageView1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_toRightOf="@id/imageView5"
+        android:layout_below="@id/imageView1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:id="@+id/imageView7"
+        android:scaleType="fitXY"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/imageView4"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:id="@+id/imageView8"
+        android:scaleType="fitXY"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_toRightOf="@id/imageView7"
+        android:layout_below="@id/imageView4"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/imageView4"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageView8"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/playingcard"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:id="@+id/imageView10"
+        android:scaleType="fitXY"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/imageView7"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:id="@+id/imageView11"
+        android:scaleType="fitXY"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_toRightOf="@id/imageView10"
+        android:layout_below="@id/imageView7"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:src="@drawable/playingcard"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView12"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_toRightOf="@id/imageView11"
+        android:layout_below="@id/imageView7"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:text="Match each card with its twin card"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:paddingTop="7dp"
+        android:textColor="#000000"
+        android:background="@drawable/rounded_corners_darkgreen"
+        android:textSize="25sp"
+        android:fontFamily="monospace"
+        android:text=" Time: 0 seconds " />
+</RelativeLayout>

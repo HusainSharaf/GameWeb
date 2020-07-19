@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#123456"
+    tools:context=".Tic_Tac_Toe_names">
+
+    <TextView
+        android:id="@+id/Player1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Player 1"
+        android:textColor="#4CAF50"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#2196F3"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Player1"
+        android:layout_marginTop="0dp"/>
+
+
+    <TextView
+        android:id="@+id/Player2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Player 2"
+        android:textColor="#4CAF50"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#2196F3"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:fontFamily="monospace"
+        android:text="Start Game"
+        android:background="@drawable/rounded_corners_darkgreen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"/>
+
+    <ImageView
+        android:src="@drawable/back"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</RelativeLayout>
